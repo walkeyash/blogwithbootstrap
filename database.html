@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>eNigma-Programmer Platform</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">eNigma</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Subjects
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Tech</a></li>
+                            <li><a class="dropdown-item" href="#">Web-Develop</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Support</a></li>
+                            <li><a class="dropdown-item" href="#">Write For Us</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact Us</a>
+                    </li>
+
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-danger" type="submit">Search</button>
+                </form>
+                <div class="mx-2">
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#LoginModal">Login</button>
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#SignUpModal">Signup</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="col-md-8" style="margin: auto; width: 80%; padding: 20px;">
+        <h3 class="pb-4 mb-4 fst-italic border-bottom" style="text-align: center;">
+            DATABASE
+        </h3>
+
+        <article class="blog-post">
+            <h2 class="display-5 link-body-emphasis mb-1">What Are Databases?</h2>
+            <p class="blog-post-meta">Learn More With <a
+                    href="https://www.techtarget.com/searchdatamanagement/definition/database">Database</a></p>
+
+            <p>Unveiling the Data Universe: Navigating the Depths of Database Management</p>
+            <hr>
+            <p>Welcome to our database blog, where we embark on a journey through the intricate realm of data management
+                and storage. Our mission is to decode the complexities of databases, providing you with a compass to
+                navigate through the data-driven landscape. From understanding the nuances of various database systems
+                to mastering data modeling, optimization, and security, our curated articles and insights are designed
+                to empower developers, administrators, and data enthusiasts alike.</p>
+            <h2>Database</h2>
+            <p> A database is an organized collection of data (also known as a data store) stored and accessed
+                electronically through the use of a database management system. Small databases can be stored on a file
+                system, while large databases are hosted on computer clusters or cloud storage. The design of databases
+                spans formal techniques and practical considerations, including data modeling, efficient data
+                representation and storage, query languages, security and privacy of sensitive data, and distributed
+                computing issues, including supporting concurrent access and fault tolerance.</p>
+            <h3>Database Management System (DBMS)</h3>
+            <p>A database management system (DBMS) is the software that interacts with end users, applications, and the
+                database itself to capture and analyze the data. The DBMS software additionally encompasses the core
+                facilities provided to administer the database. The sum total of the database, the DBMS and the
+                associated applications can be referred to as a database system. Often the term "database" is also used
+                loosely to refer to any of the DBMS, the database system or an application associated with the database.
+            </p>
+            <h2>Terminology and overview</h2>
+            <p>Formally, a "database" refers to a set of related data accessed through the use of a "database management
+                system" (DBMS), which is an integrated set of computer software that allows users to interact with one
+                or more databases and provides access to all of the data contained in the database (although
+                restrictions may exist that limit access to particular data). The DBMS provides various functions that
+                allow entry, storage and retrieval of large quantities of information and provides ways to manage how
+                that information is organized.
+
+                Because of the close relationship between them, the term "database" is often used casually to refer to
+                both a database and the DBMS used to manipulate it.
+
+                Outside the world of professional information technology, the term database is often used to refer to
+                any collection of related data (such as a spreadsheet or a card index) as size and usage requirements
+                typically necessitate use of a database management system.
+
+                Existing DBMSs provide various functions that allow management of a database and its data which can be
+                classified into four main functional groups:
+            <ul>
+                <li><b>Data definition</b> – Creation, modification and removal of definitions that define the
+                    organization of the data.</li>
+                <li><b>Update</b> – Insertion, modification, and deletion of the actual data.</li>
+                <li><b>Retrieval</b>– Providing information in a form directly usable or for further processing by other
+                    applications. The retrieved data may be made available in a form basically the same as it is stored
+                    in the database or in a new form obtained by altering or combining existing data from the database
+                </li>
+                <li><b>Administration</b>– Registering and monitoring users, enforcing data security, monitoring
+                    performance, maintaining data integrit</li>
+            </ul>
+            </p>
+            <h2>Backup and restore</h2>
+            <p>Sometimes it is desired to bring a database back to a previous state (for many reasons, e.g., cases when
+                the database is found corrupted due to a software error, or if it has been updated with erroneous data).
+                To achieve this, a backup operation is done occasionally or continuously, where each desired database
+                state (i.e., the values of its data and their embedding in database's data structures) is kept within
+                dedicated backup files (many techniques exist to do this effectively). When it is decided by a database
+                administrator to bring the database back to this state (e.g., by specifying this state by a desired
+                point in time when the database was in this state), these files are used to restore that state.</p>
+            <h3>History</h3>
+            <p>The sizes, capabilities, and performance of databases and their respective DBMSs have grown in orders of
+                magnitude. These performance increases were enabled by the technology progress in the areas of
+                processors, computer memory, computer storage, and computer networks. The concept of a database was made
+                possible by the emergence of direct access storage media such as magnetic disks, which became widely
+                available in the mid-1960s; earlier systems relied on sequential storage of data on magnetic tape. The
+                subsequent development of database technology can be divided into three eras based on data model or
+                structure: navigational, SQL/relational, and post-relational.
+
+                The two main early navigational data models were the hierarchical model and the CODASYL model (network
+                model). These were characterized by the use of pointers (often physical disk addresses) to follow
+                relationships from one record to another.
+
+                The relational model, first proposed in 1970 by Edgar F. Codd, departed from this tradition by insisting
+                that applications should search for data by content, rather than by following links. The relational
+                model employs sets of ledger-style tables, each used for a different type of entity. Only in the
+                mid-1980s did computing hardware become powerful enough to allow the wide deployment of relational
+                systems (DBMSs plus applications). By the early 1990s, however, relational systems dominated in all
+                large-scale data processing applications, and as of 2018 they remain dominant: IBM Db2, Oracle, MySQL,
+                and Microsoft SQL Server are the most searched DBMS. The dominant database language, standardized SQL
+                for the relational model, has influenced database languages for other data models.[citation needed]
+
+                Object databases were developed in the 1980s to overcome the inconvenience of object–relational
+                impedance mismatch, which led to the coining of the term "post-relational" and also the development of
+                hybrid object–relational databases.
+
+                The next generation of post-relational databases in the late 2000s became known as NoSQL databases,
+                introducing fast key–value stores and document-oriented databases. A competing "next generation" known
+                as NewSQL databases attempted new implementations that retained the relational/SQL model while aiming to
+                match the high performance of NoSQL compared to commercially available relational DBMSs.</p>
+            <p>To learn more things related to DataBases this is it:-</p>
+            <p class="blog-post-meta"> <a
+                href="https://www.techtarget.com/searchdatamanagement/definition/database">Database</a></p>
+
+        </article>
+
+        <nav class="blog-pagination" aria-label="Pagination" style="text-align: center;">
+            <a class="btn btn-outline-primary rounded-pill" href="./index.html">Go Back</a>
+        </nav>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
